@@ -15,15 +15,15 @@
         </Grid.RowDefinitions>
 
         <StackPanel x:Name="buttonStackPanel1" Grid.Row="0" Orientation="Horizontal" Margin="0,70,0,50">
-            <Button x:Name="btn1" Content="1" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="100,0,50,0"/>
-            <Button x:Name="btn2" Content="2" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="0,0,50,0"/>
-            <Button x:Name="btn3" Content="3" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+            <Button x:Name="btn1" Content="1" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background ="DarkOrange" Margin="100,0,50,0"/>
+            <Button x:Name="btn2" Content="2" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background="Pink" Margin="0,0,50,0"/>
+            <Button x:Name="btn3" Content="3" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background="SkyBlue"/>
         </StackPanel>
 
         <StackPanel x:Name="buttonStackPanel2" Grid.Row="1" Orientation="Horizontal">
-            <Button x:Name="btn4" Content="4" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="100,0,50,0"/>
-            <Button x:Name="btn5" Content="5" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="0,0,50,0"/>
-            <Button x:Name="btn6" Content="6" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" />
+            <Button x:Name="btn4" Content="4" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background ="Red" Margin="100,0,50,0"/>
+            <Button x:Name="btn5" Content="5" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background ="BlueViolet" Margin="0,0,50,0"/>
+            <Button x:Name="btn6" Content="6" Width="150" Height="100" Click="Button_Click" FontSize="50" MouseRightButtonDown="Button_MouseRightButtonDown" Background="Silver"/>
         </StackPanel>
     </Grid>
 </Window>
